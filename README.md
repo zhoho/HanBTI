@@ -26,7 +26,9 @@ make video
 ---
 
 Expected results(outcomes) of your final project
+
 Target users
+
 Plans of how to evaluate the quality of your project result.
 
 
