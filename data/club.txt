@@ -1,0 +1,53 @@
+공연 동아리(Performance Art)
+1. 꾼들
+2. 두나미스
+3. 레버리
+4. 리퀴드
+5. 소울
+6. 어메이징 스토리
+7. 즉흥적 새벽 두시
+8. 피치파이프 
+9. 하향
+10. 한동대학교 응원단
+11. 한동 오케스트라
+12. 한풍
+13. 할루시네이션
+14. Ammission
+15. GO
+16. NEO
+17. Zizzy
+
+전시 동아리(Exhibition)
+1. CANVAS
+2. HAC
+3. VAM
+
+종교 동아리(Religion)
+1. 북한중보기도모임
+2. 오르
+3. B2B
+4. CCC
+5. SFC
+
+체육 동아리(Sports)
+1. 그랜드슬램
+2. 암스트롱
+3. 얼리버드
+4. 천풍해세
+5. 한검
+6. 한방 스윙스
+7. H-MILAN
+8. Holy Rams
+
+학술 동아리(Scholarship)
+1. 펜통
+2. DUDUS
+
+봉사 동아리(Volunteer)
+1. 청소년 자유학교
+2. 팔레트
+3. 피스메이커
+
+전산 동아리(Computer Science)
+1. CRA
+2. GHOST
