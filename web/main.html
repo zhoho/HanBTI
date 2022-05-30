@@ -7,6 +7,8 @@
     <title>Handongbti</title>
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -20,18 +22,27 @@
                 <img src="./image/ossmain.jpg" alt="mainImage" class="img-fluid">
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus esse amet doloremque beatae laborum, ipsa, perspiciatis delectus cupiditate iure eum excepturi numquam soluta? Magnam doloribus, minus recusandae dolore obcaecati nihil!
+                한동에서 나의 MBTI 유형은? <br>
+                나의 유형에 맞는 동아리는 무엇일까?
             </p>
-            <button type="button" class="btn btn-outline-success">시작하기</button>
+            <button type="button" class="btn btn-outline-success mt-2" onclick="js:click_startbutton()">시작하기</button>
         </section>
         
-        <section id="qna_page">
 
+        <section id="qna_page">
+            <div class="questionList">
+
+            </div>
+            <div class="answerList">
+                
+            </div>
         </section>
 
         <section id="result_page">
 
         </section>
+        <script src="./js/data.js" charset="utf-8"></script>
+        <script src="./js/start.js" charset="utf-8"></script>
     </div>
 </body>
 </html>
