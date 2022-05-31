@@ -67,9 +67,46 @@ function calculate_result()
     {
         select_to_mbti.push('J');
     }
-    console.log(select_to_mbti);
-
+    
+    //console.log(select_to_mbti);
+    const mbti = select_to_mbti.join("")
+    if(mbti === 'INFP')return 0;
+    else if(mbti === 'INFJ')return 1;
+    else if(mbti === 'INTP')return 2;
+    else if(mbti === 'INTJ')return 3; 
+    else if(mbti === 'ISFP')return 4; 
+    else if(mbti === 'ISFJ')return 5; 
+    else if(mbti === 'ISTP')return 6; 
+    else if(mbti === 'ISTJ')return 7; 
+    else if(mbti === 'ENFP')return 8; 
+    else if(mbti === 'ENFJ')return 9; 
+    else if(mbti === 'ENTP')return 10; 
+    else if(mbti === 'ENTJ')return 11; 
+    else if(mbti === 'ESFP')return 12; 
+    else if(mbti === 'ESFJ')return 13; 
+    else if(mbti === 'ESTP')return 14; 
+    else if(mbti === 'ESTJ')return 15; 
 }
+
+function setResult()
+{
+    point = calculate_result();
+
+    const resultName = document.querySelector('.resultName');
+    resultName.innerHTML = info_list[point].name;
+
+    var resultImage = document.createElement('img');
+    const imgDiv = document.querySelector('#resultImage')
+    var ImageUrl = 'image/image-' + point +'jpg';
+    resultImage.src = ImageUrl;
+    resultImage.alt = point;
+    resultImage.classList.add('img-fluid');
+    imgDiv.appendChild(resultImage);
+
+    const resultDescription = document.querySelector('.resultDescription');
+    resultDescription.innerHTML = info_list[point].desc;
+}
+
 function goResult()
 {
     qna.style.WebkitAnimation = "fadeOut 1s";
@@ -81,8 +118,7 @@ function goResult()
         qna.style.display = "none";
         result.style.display = "block";
     }, 450)})
-    console.log(select);
-    calculate_result();
+    setResult();
 }
 
 function addAnswer(answerText, qIdx, idx)

@@ -165,3 +165,70 @@ const qnaList =[
         ]
     },
 ]
+
+const info_list = [
+    {
+        name : 'INFP',
+        desc : 'INFP'
+    },
+    {
+        name : 'INFJ',
+        desc : 'INFJ'
+    },
+    {
+        name : 'INTP',
+        desc : 'INTP'
+    },
+    {
+        name : 'INTJ',
+        desc : 'INTJ'
+    },
+    {
+        name : 'ISFP',
+        desc : 'ISFP'
+    },
+    {
+        name : 'ISFJ',
+        desc : 'ISFJ'
+    },
+    {
+        name : 'ISTP',
+        desc : 'ISTP'
+    },
+    {
+        name : 'ISTJ',
+        desc : 'ISTJ'
+    },
+    {
+        name : 'ENFP',
+        desc : 'ENFP'
+    },
+    {
+        name : 'ENFJ',
+        desc : 'ENFJ'
+    },
+    {
+        name : 'ENTP',
+        desc : 'ENTP'
+    },
+    {
+        name : 'ENTJ',
+        desc : 'ENTJ'
+    },
+    {
+        name : 'ESFP',
+        desc : 'ESFP'
+    },
+    {
+        name : 'ESFJ',
+        desc : 'ESFJ'
+    },
+    {
+        name : 'ESTP',
+        desc : 'ESTP'
+    },
+    {
+        name : 'ESTJ',
+        desc : 'ESTJ'
+    }
+]
