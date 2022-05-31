@@ -1,4 +1,4 @@
-#qna{
+#qna_page{
     display: none;
 }
 
@@ -6,7 +6,7 @@
     background-color: whitesmoke;
     text-align: center;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .answerList{
@@ -15,7 +15,7 @@
     display: block;
     width: 80%;
     border: 0px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .answerList:hover, .answerList:focus{
