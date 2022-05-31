@@ -1,3 +1,11 @@
 #result_page{
     display: none;
+    background-color: #F0F5EA;
+    width: 80%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+p{
+    font-size: 24px;
 }
