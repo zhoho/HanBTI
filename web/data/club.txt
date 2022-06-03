@@ -51,3 +51,7 @@
 전산 동아리(Computer Science)
 1. CRA
 2. GHOST
+
+
+총 40개 동아리
+16개 성격유형
