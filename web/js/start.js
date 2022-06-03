@@ -97,7 +97,7 @@ function setResult()
 
     var resultImage = document.createElement('img');
     const imgDiv = document.querySelector('#resultImage')
-    var ImageUrl = 'image/image-' + point +'jpg';
+    var ImageUrl = './image/Page'+point +'.jpg';
     resultImage.src = ImageUrl;
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
