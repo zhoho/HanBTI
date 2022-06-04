@@ -1,7 +1,7 @@
 const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
-const question_num = 15;
+const question_num = 13;
 const select = [];
 const select_to_mbti = [];
 
@@ -184,3 +184,28 @@ function click_startbutton()
     goNext(qIdx);
 }, 450);
 }
+
+function click_sharebutton()
+{
+    var webAddress = document.getElementById("webaddress").innerHTML;
+    navigator.clipboard.writeText(webAddress)
+        .then(() => {
+        alert("Text copied to clipboard...")
+    })
+        .catch(err => {
+        alert('Something went wrong', err);
+    })
+}
+
+// function copyToClickBoard(){
+//     var content = document.getElementById('textArea').innerHTML;
+
+//     navigator.clipboard.writeText(content)
+//         .then(() => {
+//         console.log("Text copied to clipboard...")
+//     })
+//         .catch(err => {
+//         console.log('Something went wrong', err);
+//     })
+ 
+// }
