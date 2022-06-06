@@ -105,6 +105,9 @@ function setResult()
 
     const resultDescription = document.querySelector('.resultDescription');
     resultDescription.innerHTML = info_list[point].desc;
+
+    const club = document.querySelector(".club");
+    club.innerHTML = info_list[point].club;
 }
 
 function goResult()
@@ -190,10 +193,10 @@ function click_sharebutton()
     var webAddress = document.getElementById("webaddress").innerHTML;
     navigator.clipboard.writeText(webAddress)
         .then(() => {
-        alert("Text copied to clipboard...")
+        alert("복사되었습니다!")
     })
         .catch(err => {
-        alert('Something went wrong', err);
+        alert('에러발생!', err);
     })
 }
 
