@@ -1,7 +1,8 @@
 const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
-const question_num = 13;
+const alltype = document.querySelector('#alltype_page')
+const question_num = 1;
 const select = [];
 const select_to_mbti = [];
 
@@ -110,6 +111,34 @@ function setResult()
     club.innerHTML = info_list[point].club;
 }
 
+function setResult_alltype(typepoint)
+{
+    result.style.WebkitAnimation = "fadeIn 1s";
+    result.style.animation = "fadeIn 1s";
+    setTimeout(() => {
+        result.style.display = "block";
+    }, 450)
+
+    point = typepoint;
+    const resultName = document.querySelector('.resultName');
+    resultName.innerHTML = info_list[point].name;
+
+    var resultImage = document.createElement('img');
+    const imgDiv = document.querySelector('#resultImage')
+    var ImageUrl = './image/Page'+point +'.jpg';
+    resultImage.src = ImageUrl;
+    resultImage.alt = point;
+    resultImage.classList.add('img-fluid');
+    imgDiv.appendChild(resultImage);
+
+    const resultDescription = document.querySelector('.resultDescription');
+    resultDescription.innerHTML = info_list[point].desc;
+
+    const club = document.querySelector(".club");
+    club.innerHTML = info_list[point].club;
+
+}
+
 function goResult()
 {
     qna.style.WebkitAnimation = "fadeOut 1s";
@@ -190,7 +219,7 @@ function click_startbutton()
 
 function click_sharebutton()
 {
-    var webAddress = document.getElementById("webaddress").innerHTML;
+    var webAddress = "https://handongbti.netlify.app";
     navigator.clipboard.writeText(webAddress)
         .then(() => {
         alert("복사되었습니다!")
@@ -200,15 +229,32 @@ function click_sharebutton()
     })
 }
 
-// function copyToClickBoard(){
-//     var content = document.getElementById('textArea').innerHTML;
+function click_checkall()
+{
+    result.style.WebkitAnimation = "fadeOut 1s";
+    result.style.animation = "fadeOut 1s";
+    setTimeout(() => {
+        alltype.style.WebkitAnimation = "fadeIn 1s";
+        alltype.style.animation = "fadeIn 1s";
+    setTimeout(() => {
+        result.style.display = "none";
+        alltype.style.display = "block";
+    }, 450);
+}, 450);
+}
 
-//     navigator.clipboard.writeText(content)
-//         .then(() => {
-//         console.log("Text copied to clipboard...")
-//     })
-//         .catch(err => {
-//         console.log('Something went wrong', err);
-//     })
- 
-// }
+function click_restart()
+{
+    result.style.WebkitAnimation = "fadeOut 1s";
+    result.style.animation = "fadeOut 1s";
+    setTimeout(() => {
+        main.style.WebkitAnimation = "fadeIn 1s";
+        main.style.animation = "fadeIn 1s";
+    setTimeout(() => {
+        result.style.display = "none";
+        main.style.display = "block";
+    }, 450);
+}, 450);
+
+}
+
