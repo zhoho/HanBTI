@@ -1,34 +1,23 @@
+# HBTI (Handong + MBTI)
+Find the club for you in Handong
 
-(tentative) Project Title
-- Find the right club for you in Handong
+<img src = "web/image/mainPage.jpg">
+<div align = 'center'>
+<a href ="">
+<img src = 'https://img.shields.io/badge/Youtube-red?style=for-the-badge'>
+</a>
+</div>
 
-Goal(s) of your final project
-- It helps those who want to do club activities in Handong and are thinking about which clubs will fit them.
-
-How you are going to implement them. (Functions or softwares that you need/want to use)
-- Git, html, javascript, css, apache
-
-Implementation Schedule
-
+## What does this project do?
+---
+## Why is this project useful? 
 ---
 
-Week 13
-- Ui design, get data(handong club name), make question
-
-Week 14
-- make front page(use html,css) and connect server.
-
-Week 15
-- Web test
-make Readme.md
-make video
-
+## How to get started?
 ---
 
-Expected results(outcomes) of your final project
-
-Target users
-
-Plans of how to evaluate the quality of your project result.
+## Where can people get more help, if needed?
+---
 
 
+<h2 id="License"align='center'>Copyleft / End User License</h2>
