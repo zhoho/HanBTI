@@ -137,13 +137,15 @@ function setResult_alltype(typepoint)
     resultImage.src = ImageUrl;
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
-    imgDiv.appendChild(resultImage);
 
     const resultDescription = document.querySelector('.resultDescription');
     resultDescription.innerHTML = info_list[point].desc;
 
     const club = document.querySelector(".club");
     club.innerHTML = info_list[point].club;
+
+    const match = document.querySelector(".match");
+    match.innerHTML = info_list[point].match;
 
 }
 
