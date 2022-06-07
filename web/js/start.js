@@ -2,7 +2,7 @@ const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
 const alltype = document.querySelector('#alltype_page')
-const question_num = 1;
+const question_num = 3;
 const select = [];
 const select_to_mbti = [];
 
@@ -71,6 +71,11 @@ function calculate_result()
     
     //console.log(select_to_mbti);
     const mbti = select_to_mbti.join("")
+    // select_to_mbti = null;
+    // for(i = 0; i < 7; i++)
+    // {
+    //     mbtiArray[i].value = 0;
+    // }
     if(mbti === 'INFP')return 0;
     else if(mbti === 'INFJ')return 1;
     else if(mbti === 'INTP')return 2;
@@ -109,6 +114,9 @@ function setResult()
 
     const club = document.querySelector(".club");
     club.innerHTML = info_list[point].club;
+
+    const match = document.querySelector(".match");
+    match.innerHTML = info_list[point].match;
 }
 
 function setResult_alltype(typepoint)
@@ -247,14 +255,13 @@ function click_restart()
 {
     result.style.WebkitAnimation = "fadeOut 1s";
     result.style.animation = "fadeOut 1s";
+
     setTimeout(() => {
         main.style.WebkitAnimation = "fadeIn 1s";
         main.style.animation = "fadeIn 1s";
     setTimeout(() => {
-        result.style.display = "none";
-        main.style.display = "block";
+        location.reload(true);
     }, 450);
 }, 450);
-
 }
 

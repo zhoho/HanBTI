@@ -1,11 +1,11 @@
 #result_page{
     display: none;
     background-color: white;
-    width: 80%;
+    width: 70%;
     text-align: center;
     border-radius: 25px;
 }
 
 p{
-    font-size: 23px;
+    font-size: 24px;
 }
