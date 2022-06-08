@@ -2,7 +2,7 @@ const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
 const alltype = document.querySelector('#alltype_page')
-const question_num = 3;
+const question_num = 2;
 const select = [];
 const select_to_mbti = [];
 
@@ -131,12 +131,14 @@ function setResult_alltype(typepoint)
     const resultName = document.querySelector('.resultName');
     resultName.innerHTML = info_list[point].name;
 
+    //이미지 겹쳐지는거 고치기
     var resultImage = document.createElement('img');
     const imgDiv = document.querySelector('#resultImage')
     var ImageUrl = './image/Page'+point +'.jpg';
     resultImage.src = ImageUrl;
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
+    imgDiv.appendChild(resultImage);
 
     const resultDescription = document.querySelector('.resultDescription');
     resultDescription.innerHTML = info_list[point].desc;

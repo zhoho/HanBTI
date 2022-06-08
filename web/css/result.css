@@ -7,5 +7,25 @@
 }
 
 p{
-    font-size: 24px;
+    font-size: 29px;
+}
+
+.club{
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.match{
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.resultDescription{
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.resultName{
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
 }
