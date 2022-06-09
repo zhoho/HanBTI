@@ -6,6 +6,11 @@
     border-radius: 25px;
 }
 
+#resultImage{
+    width: 228px;
+    height:auto;
+}
+
 p{
     font-size: 26px;
 }
