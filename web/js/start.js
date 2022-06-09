@@ -2,7 +2,7 @@ const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
 const alltype = document.querySelector('#alltype_page')
-const question_num = 2;
+const question_num = 3;
 const select = [];
 const select_to_mbti = [];
 
@@ -122,17 +122,23 @@ function setResult()
     place.innerHTML = info_list[point].place;
 }
 
-// function removeImage()
-// {
-//     const imgDiv = document.querySelector('#resultImage')
-//     var ImageUrl = './image/Page'+point +'.jpg';
-//     resultImage.src = ImageUrl;
-//     resultImage.alt = point;
-//     imgDiv.removeChild(imgDiv.firstChild);
-// }
+function removeImage()
+{
+    const imgDiv = document.querySelector('#resultImage')
+    var ImageUrl = './image/Page'+point +'.jpg';
+    resultImage.src = ImageUrl;
+    resultImage.alt = point;
+
+    // 모든 유형 확인하기 페이지에서 다시 모든 유형 확인하기 페이지로 넘어갈 때 오류나던것 해결
+    if(imgDiv.firstChild != null)
+    {
+        imgDiv.removeChild(imgDiv.firstChild);
+    }
+}
 
 function setResult_alltype(typepoint)
 {
+    removeImage();
     result.style.WebkitAnimation = "fadeIn 1s";
     result.style.animation = "fadeIn 1s";
     setTimeout(() => {
@@ -150,9 +156,7 @@ function setResult_alltype(typepoint)
     resultImage.src = ImageUrl;
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
-    
     imgDiv.appendChild(resultImage);
-
     const resultDescription = document.querySelector('.resultDescription');
     resultDescription.innerHTML = info_list[point].desc;
 
@@ -257,6 +261,7 @@ function click_sharebutton()
 
 function click_checkall()
 {
+    removeImage();
     result.style.WebkitAnimation = "fadeOut 1s";
     result.style.animation = "fadeOut 1s";
     setTimeout(() => {
