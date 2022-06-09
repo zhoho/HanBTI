@@ -2,7 +2,7 @@ const main = document.querySelector("#main_page");
 const qna = document.querySelector("#qna_page");
 const result = document.querySelector('#result_page');
 const alltype = document.querySelector('#alltype_page')
-const question_num = 3;
+const question_num = 20;
 const select = [];
 const select_to_mbti = [];
 
