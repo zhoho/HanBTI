@@ -225,114 +225,114 @@ const qnaList =[
 const info_list = [
     {
         name : '한동 열정맨',
-        desc : '정열적이고 충실하며 낭만적이며, 내적 신념이 깊다.',
+        desc : '이상적인 세상을 만들어 가는사람',
         club : '그랜드슬램, CCC, 한풍',
         match : '한동 워리어, 한동 지휘자',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 츤데레',
-        desc : '',
+        desc : '사람에 관한 뛰어난 통찰력을 가진 사람',
         club : '팔레트, 펜통',
         match : '한동 활동가, 한동 토론왕',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 박사님',
-        desc : '',
+        desc : '비평적인 관점을 가진 뛰어난 전략을 가진 사람',
         club : 'CRA, 청소년 자유학교',
         match : '한동 경찰관, 한동 지휘자',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 전략가',
-        desc : '',
+        desc : '전체를 조합하여 비전을 제시하는 사람',
         club : 'GOUST, 두나미스',
         match : '한동 워리어, 한동 지휘자',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 예술가',
-        desc : '',
+        desc : '따뜻한 감성을 가진 겸손한 사람',
         club : '한동 오케스트라, HAC, 하향',
         match : '한동 워리어, 한동 외교관, 한동 경찰관',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 수호자',
-        desc : '',
+        desc : '성실하고 온화하며 협조를 잘 하는 사람',
         club : '즉흥적 새벽 두시, 얼리버드',
         match : '한동 핵인싸, 한동 사업가',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 재주꾼',
-        desc : '',
+        desc : '논리적이고 뛰어난 상황 적응력을 가진 사람',
         club : 'NEO, 꾼들, Ammission',
         match : '한동 외교관 , 한동 경찰관',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 논리왕',
-        desc : '',
+        desc : '한 번 시작한 일은 끝까지 해내는 사람',
         club : '리퀴드, 피스메이커',
         match : '한동 핵인싸, 한동 사업가',
-        place : ''
+        place : '기숙사, 방'
     },
     {
         name : '한동 활동가',
-        desc : '',
+        desc : '열정적으로 새로운 관계를 만드는 사람',
         club : 'Holy Rams, 어메이징 스토리',
         match : '한동 츤데레, 한동 전략가',
-        place : ''
+        place : '동아리방, 양덕'
     },
     {
         name : '한동 워리어',
-        desc : '',
+        desc : '타인의 성장을 도모하고 협동하는 사람',
         club : '피치파이프, 암스트롱',
         match : '한동 열정맨, 한동 예술가',
-        place : ''
+        place : '동아리방, 양덕'
     },
     {
         name : '한동 토론왕',
-        desc : '',
+        desc : '풍부한 상상력으로 새로운 것에 도전하는 사람',
         club : '할루시네이션, 한검',
         match : '한동 츤데레, 한동 전략가',
-        place : ''
+        place : '오석'
     },
     {
         name : '한동 지휘자',
-        desc : '',
+        desc : '비전을 갖고 타인을 활력적으로 인도하는 사람',
         club : "GO, 천풍해세",
         match : '한동 열정맨, 한동 박사님',
-        place : ''
+        place : '오석'
     },
     {
         name : '한동 핵인싸',
-        desc : '',
+        desc : '분위기를 고조시키는 우호적인 사람',
         club : "zizzy, 한방 스윙스",
         match : '한동 수호자, 한동 논리왕',
-        place : ''
+        place : '양덕, 영일대'
     },
     {
         name : '한동 외교관',
-        desc : '',
+        desc : '친절, 현실감을 바탕으로 타인에게 봉사하는 사람',
         club : "레버리, 소울",
         match : '한동 예술가, 한동 재주꾼',
-        place : ''
+        place : '동아리방'
     },
     {
         name : '한동 사업가',
-        desc : '',
+        desc : '친구, 운동, 음식 등 다양함을 선호하는 사람',
         club : "CANVAS, VAM",
         match : '한동 수호자, 한동 논리왕',
-        place : ''
+        place : '양덕, 영일대'
     },
     {
         name : '한동 경찰관',
-        desc : '',
+        desc : '사무적, 실용적, 현실적인 사람',
         club : 'H-MILAN, DUDUS',
         match : '한동 예술가, 한동 재주꾼, 한동 박사님',
-        place : ''
+        place : '오석'
     }
 ]

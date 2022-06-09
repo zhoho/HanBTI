@@ -76,22 +76,22 @@ function calculate_result()
     // {
     //     mbtiArray[i].value = 0;
     // }
-    if(mbti === 'INFP')return 0;
-    else if(mbti === 'INFJ')return 1;
-    else if(mbti === 'INTP')return 2;
-    else if(mbti === 'INTJ')return 3; 
-    else if(mbti === 'ISFP')return 4; 
-    else if(mbti === 'ISFJ')return 5; 
-    else if(mbti === 'ISTP')return 6; 
-    else if(mbti === 'ISTJ')return 7; 
-    else if(mbti === 'ENFP')return 8; 
-    else if(mbti === 'ENFJ')return 9; 
-    else if(mbti === 'ENTP')return 10; 
-    else if(mbti === 'ENTJ')return 11; 
-    else if(mbti === 'ESFP')return 12; 
-    else if(mbti === 'ESFJ')return 13; 
-    else if(mbti === 'ESTP')return 14; 
-    else if(mbti === 'ESTJ')return 15; 
+    if(mbti === 'INFP')return 0; //이상적인 세상을 만들어가는 사람 기숙사, 방
+    else if(mbti === 'INFJ')return 1; //사람에 관한 뛰어난 통찰력을 가진 사람 기숙사, 방
+    else if(mbti === 'INTP')return 2; //비평적인 관점을 가진 뛰어난 전략을 가진 사람 기숙사, 방 
+    else if(mbti === 'INTJ')return 3; //전체를 조합하여 비전을 제시하는 사람 기숙사, 방
+    else if(mbti === 'ISFP')return 4; //따뜻한 감성을 가진 겸손한 사람 기숙사, 방
+    else if(mbti === 'ISFJ')return 5; //성실하고 온화하며 협조를 잘 하는 사람 기숙사, 방
+    else if(mbti === 'ISTP')return 6; //논리적이고 뛰어난 상황 적응력을 가진 사람 기숙사, 방 
+    else if(mbti === 'ISTJ')return 7; //한 번 시작한 일은 끝까지 해내는 사람 기숙사, 방
+    else if(mbti === 'ENFP')return 8; //열정적으로 새로운 관계를 만드는 사람 동방
+    else if(mbti === 'ENFJ')return 9; //타인의 성장을 도모하고 협동하는 사람  도
+    else if(mbti === 'ENTP')return 10;// 풍부한 상상력으로 새로운 것에 도전하는 사람
+    else if(mbti === 'ENTJ')return 11;// 비전을 갖고 타인을 활력적으로 인도하는 사람 
+    else if(mbti === 'ESFP')return 12;// 분위기를 고조시키는 우호적인 사람 양덕, 영일대 
+    else if(mbti === 'ESFJ')return 13;// 친절, 현실감을 바탕으로 타인에게 봉사하는 사람 
+    else if(mbti === 'ESTP')return 14;// 친구, 운동, 음식 등 다양함을 선호하는 사람 어디에 있는지 모름
+    else if(mbti === 'ESTJ')return 15;// 사무적, 실용적, 현실적인 사람 양덕, 영일대
 }
 
 function setResult()
@@ -108,7 +108,7 @@ function setResult()
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
     imgDiv.appendChild(resultImage);
-
+   
     const resultDescription = document.querySelector('.resultDescription');
     resultDescription.innerHTML = info_list[point].desc;
 
@@ -117,7 +117,19 @@ function setResult()
 
     const match = document.querySelector(".match");
     match.innerHTML = info_list[point].match;
+
+    const place = document.querySelector(".place");
+    place.innerHTML = info_list[point].place;
 }
+
+// function removeImage()
+// {
+//     const imgDiv = document.querySelector('#resultImage')
+//     var ImageUrl = './image/Page'+point +'.jpg';
+//     resultImage.src = ImageUrl;
+//     resultImage.alt = point;
+//     imgDiv.removeChild(imgDiv.firstChild);
+// }
 
 function setResult_alltype(typepoint)
 {
@@ -138,6 +150,7 @@ function setResult_alltype(typepoint)
     resultImage.src = ImageUrl;
     resultImage.alt = point;
     resultImage.classList.add('img-fluid');
+    
     imgDiv.appendChild(resultImage);
 
     const resultDescription = document.querySelector('.resultDescription');
@@ -149,6 +162,8 @@ function setResult_alltype(typepoint)
     const match = document.querySelector(".match");
     match.innerHTML = info_list[point].match;
 
+    const place = document.querySelector(".place");
+    place.innerHTML = info_list[point].place;
 }
 
 function goResult()
@@ -175,7 +190,6 @@ function addAnswer(answerText, qIdx, idx)
     answer.classList.add('mx-auto');
     answer.classList.add('fadeIn');
     
-
     a.appendChild(answer);
     answer.innerHTML = answerText;
 
