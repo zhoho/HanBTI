@@ -7,30 +7,31 @@
 }
 
 p{
-    font-size: 29px;
+    font-size: 26px;
 }
 
 .club{
     font-size: 18px;
-    font-family: 'Gothic A1', sans-serif;
+
+    font-family: 'Gothic A3', sans-serif;
 }
 
 .match{
     font-size: 18px;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A3', sans-serif;
 }
 
 .resultDescription{
     font-size: 18px;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A3', sans-serif;
 }
 
 .resultName{
-    font-size: 18px;
-    font-family: 'Gothic A1', sans-serif;
+    font-size: 22px;
+    font-family: 'Gothic A3', sans-serif;
 }
 
 .place{
     font-size: 18px;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A3', sans-serif;
 }
