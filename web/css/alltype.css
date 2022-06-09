@@ -5,3 +5,7 @@
     text-align: center;
     border-radius: 25px;
 }
+
+#resultImage{
+    width: 600px;
+}
