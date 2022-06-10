@@ -25,7 +25,7 @@ The results of this test may differ from your actual personality, so you can enj
 <!-- 성격유형검사를 통해 자기 이해가 가능합니다. 또한 서로의 성격유형을 공유하며 자신을 쉽게 소개할 수 있습니다. 요즘 젊은 세대 뿐 아니라 모든 세대들이 자신의 성격유형이 무엇인지에 대해 관심이 많습니다. -->
 Self-understanding is possible through personality type tests. Also, we can share each other's personality types and introduce ourselves easily. Nowadays, not only the younger generation but also all generations are interested in what their personality type is.
 
-You can find own personality type in Handong
+You can find own personality type in Handong <br>
 You can also find clubs that match your personality type
 
  <br>
