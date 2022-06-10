@@ -18,13 +18,20 @@ Handong + Club + MBTI <br>
 
 Based on the MBTI test, a popular personality type test these days, I have created a type test that can be enjoyed lightly. Students can identify their personality types and recommend clubs that fit them.
 
+The results of this test may differ from your actual personality, so you can enjoy it for fun!
+
 ## Why is this project useful? 
 ---
 <!-- 성격유형검사를 통해 자기 이해가 가능합니다. 또한 서로의 성격유형을 공유하며 자신을 쉽게 소개할 수 있습니다. 요즘 젊은 세대 뿐 아니라 모든 세대들이 자신의 성격유형이 무엇인지에 대해 관심이 많습니다. -->
 Self-understanding is possible through personality type tests. Also, we can share each other's personality types and introduce ourselves easily. Nowadays, not only the younger generation but also all generations are interested in what their personality type is.
  <br>
 <!-- 이 검사의 결과는 실제 자신의 성격과 다를 수 있으므로 재미로 즐겨주시면 될 것 같습니다! -->
-The results of this test may differ from your actual personality, so you can enjoy it for fun!
+
+## Contribution
+---
+You can create your own type check by changing the data value after you take the code!
+
+Some codes may not be efficient, but implementing simple features is no problem. (value, use key values to derive results, flip pages, click on buttons to move pages, etc.)
 
 
 ## How to get started?
@@ -79,6 +86,8 @@ The results of this test may differ from your actual personality, so you can enj
 - I recommend using computer rather than cell phone. (Image size issue) 
 
 - If you have any suggestions, Please leave your comments on github issues or send us an email! chlwlgh1011@naver.com
+
+- Event: If you screenshot your results page and send it to us, we will give prizes to 2 people through a lottery. (Until today)
 
 
 <h2 id="License"align='center'>Copyleft / End User License</h2>
