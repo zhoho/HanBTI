@@ -31,16 +31,16 @@ github issues에 의견을 남겨주시거나 메일을 보내주시면 됩니�
 
 ---
 ## Start page
-<img src = "/Users/choejiho/Oss_project/web/image/start.gif">
+<img src = "web/image/start.gif">
 
 ## select page
-<img src = "/Users/choejiho/Oss_project/web/image/select.gif">
+<img src = "web/image/select.gif">
 
 ## result page
-<img src = "/Users/choejiho/Oss_project/web/image/result.gif">
+<img src = "web/image/result.gif">
 
 ## alltype page
-<img src = "/Users/choejiho/Oss_project/web/image/alltype.gif">
+<img src = "web/image/alltype.gif">
 
 
 
