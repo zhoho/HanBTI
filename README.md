@@ -1,4 +1,4 @@
-# HBTI (Handong + MBTI)
+# HBTI 한동비티아이 (Handong + MBTI)
 
 <img src = "web/image/mainPage.jpg">
 <div align = 'center'>
@@ -37,6 +37,7 @@ You can create your own type check by changing the data value after you take the
 
 Some codes may not be efficient, but implementing simple features is no problem. (value, use key values to derive results, flip pages, click on buttons to move pages, etc.)
 
+The Page Configuration and Question Selection functions referenced the following codes: https://github.com/nani6765/MyMBTI
 
 ## How to get started?
 ---
@@ -91,7 +92,7 @@ Some codes may not be efficient, but implementing simple features is no problem.
 
 - If you have any suggestions, Please leave your comments on github issues or send us an email! chlwlgh1011@naver.com
 
-- Event: If you screenshot your results page and send it to me(mail), I will give small prizes to 2 people through a randomly. (Until today)
+- Event: If you screenshot your results page and send it to me(mail), I will give small prizes to 2 people through a randomly. (Until today ~ 6/17 23:59)
 
 
 <h2 id="License"align='center'>Copyleft / End User License</h2>
