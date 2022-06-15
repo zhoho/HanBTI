@@ -1,4 +1,4 @@
-# HBTI 한동비티아이 (Handong + MBTI)
+# 한동비티아이 (Handong + Club + MBTI)
 
 <img src = "web/image/mainPage.jpg">
 <div align = 'center'>
@@ -92,7 +92,7 @@ The Page Configuration and Question Selection functions referenced the following
 
 - If you have any suggestions, Please leave your comments on github issues or send us an email! chlwlgh1011@naver.com
 
-- Event: If you screenshot your results page and send it to me(mail), I will give small prizes to 2 people through a randomly. (Until today ~ 6/17 23:59)
+- Event: If you screenshot your results page and send it to me(mail), I will give small prizes to 2 people through a randomly. (Until today ~ 6/16 23:59)
 
 
 <h2 id="License"align='center'>Copyleft / End User License</h2>
